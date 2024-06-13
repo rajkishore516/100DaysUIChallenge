@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    height: 98vh;
+    margin: 0;
+    margin:10px auto;
+}
+.container-fluid{
+    height: 80vh;
+    margin:auto;
+}
+.row{
+    background-color: black;
+    color:white;
+}
+.col-6{
+    height: 96vh;
+    padding: 30px;
+    color: white;
+}
+p{
+    color: lightgray;
+}
+.content{
+    margin-inline: 50px;
+}
+.arriving{
+    margin-bottom: 30px;
+}
+.content2{
+    height: 80vh;
+    background-color: rgb(44, 43, 43);
+    border-radius: 50px;
+    width: 500px;
+    margin: auto;
+    padding:50px;
+}
+.button{
+    margin-top: 40px;
+    height: 5rem;
+    text-align: center;
+}
+.button button{
+    background-color:rgb(87, 86, 86) ;
+    color: white;
+    border-radius: 10px;
+    width:200px;
+    text-align: center;
+    padding:10px;
+    font-size: 1.2rem;
+    border:none;
+}
+.pay-buttons{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.pay-buttons button{
+    background-color:rgb(87, 86, 86) ;
+    color: white;
+    border-radius: 10px;
+    width:100px;
+    text-align: center;
+    padding:10px;
+    font-size: 0.8rem;
+    border:none;
+}
+.dots{
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dots i{
+    font-size: 2.5rem;
+    color: white;
+}
+.new-card button i{
+    font-size: 1rem;
+}
+.new-card{
+    height: 3rem;
+    text-align: center;
+}
+.new-card button{
+    background-color:rgb(87, 86, 86) ;
+    color: white;
+    border-radius: 10px;
+    width:200px;
+    text-align: center;
+    padding:10px;
+    font-size: 0.8rem;
+    border:none;
+}
+.card-no input{
+    background-color: rgb(87, 86, 86);
+    padding: 10px;
+    width: 100%;
+    border:none;
+    border-radius: 10px;
+}
+.card-no input::placeholder{
+    color: white;
+}
